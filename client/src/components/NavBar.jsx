@@ -12,6 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-xl">
+      <hr />
       <div className="mx-auto px-4 flex justify-between items-center py-2">
         {/* Hamburger Icon */}
         <div className="lg:hidden flex flex-col items-end">

@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Company Info */}
         <div className="flex-1">
           <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-2">
-            Globe Multi Traders Ltd
+            Northern Sea Food Pvt Ltd
           </h3>
           <p className="text-sm sm:text-base mb-4">
             Committed to responsible aquaculture and quality export.
@@ -23,19 +23,23 @@ const Footer = () => {
         <div className="flex-1">
           <p className="text-lg sm:text-xl font-semibold mb-2">Contact</p>
           <p className="text-sm sm:text-base mb-1 flex items-center">
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+            <span className="ml-2">Address: 687/13, Beach Road, Jaffna</span>
+          </p>
+          <p className="text-sm sm:text-base mb-1 flex items-center">
             <i className="fa-solid fa-phone"></i>
-            <span className="ml-2">Telephone: +94 70 666 6007</span>
+            <span className="ml-2">Telephone: +94 71 5555 552</span>
           </p>
           <p className="text-sm sm:text-base flex items-center">
             <i className="fa-solid fa-envelope"></i>
-            <span className="ml-2">Email: info@globemultitraders.com</span>
+            <span className="ml-2">Email: ealstevenson@gmail.com</span>
           </p>
         </div>
 
         {/* Call-to-Action */}
         <div className="flex-1">
           <p className="text-lg sm:text-xl font-semibold mb-2">
-            For more information
+            For More Information
           </p>
           <button className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
             Call Us
