@@ -3,10 +3,10 @@ import { assets } from '../assets/assets';
 
 const Banner = () => {
   return (
-    <div className="relative flex items-center justify-center h-screen overflow-hidden">
+    <div className="mt-3 relative flex items-center justify-center overflow-hidden">
       {/* Background Video */}
       <video
-        className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+        className="relative z-10 w-full h-full object-cover"
         autoPlay
         loop
         muted
@@ -16,12 +16,12 @@ const Banner = () => {
       </video>
 
       {/* Overlay */}
-      <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 z-5"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
 
       {/* Overlay Text */}
-      <div className="absolute left-4 sm:left-8 md:left-10 top-1/2 transform -translate-y-1/2 text-black z-10 px-4 sm:px-6 max-w-md sm:max-w-lg">
+      <div className="absolute left-4 sm:left-8 top-1/2 transform -translate-y-1/2 text-white z-10 px-4 sm:px-6 max-w-md sm:max-w-3xl">
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4">
-          Innovative Solutions for <br /> Sustainable Sea Cucumber Farming
+          Innovative Solutions for Sustainable Sea Cucumber Farming
         </h1>
         <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
           Pioneering responsible aquaculture practices to ensure top-quality
