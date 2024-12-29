@@ -20,10 +20,10 @@ const Banner = () => {
 
       {/* Overlay Text */}
       <div className="absolute left-4 sm:left-8 top-1/2 transform -translate-y-1/2 text-white z-10 px-4 sm:px-6 max-w-md sm:max-w-3xl">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4">
+        <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4">
           Innovative Solutions for Sustainable Sea Cucumber Farming
         </h1>
-        <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
+        <p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl">
           Pioneering responsible aquaculture practices to ensure top-quality
           seafood for global markets
         </p>
