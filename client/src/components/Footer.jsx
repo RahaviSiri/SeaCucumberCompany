@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Company Info */}
         <div className="flex-1">
           <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-2">
-            Northern Sea Food Pvt Ltd
+            Indo ocean holding Pvt ltd
           </h3>
           <p className="text-sm sm:text-base mb-4">
             Committed to responsible aquaculture and quality export.
@@ -45,6 +45,10 @@ const Footer = () => {
             Call Us
           </button>
         </div>
+      </div>
+      <div className='mt-3'>
+        <hr />
+        <p className='text-center mt-2'>Indo ocean holding Pvt ltd <span className='text-sky-400'>©</span> 2024. All rights reserved</p>
       </div>
     </footer>
   );
